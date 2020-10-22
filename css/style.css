@@ -32,15 +32,30 @@
     width: 30%;
     padding-left: 10px;
 }
+.international{
+    border-style: none none none solid;
+    border-color: teal;
+    width: 30%;
+    padding-left: 10px;
+}
 .sections{
 
 }
 .sections-img{
-    width:200px;
+    width:300px;
 }
-.text{
-    
-    margin: 45px;
+.text-1{
+    border-style:none;
+    text-align: left;
+    position: relative;
+    width: 22%
+}
+.text-2{
+    border-style:none;
+    position: relative; bottom:128px; left:300px;
+    text-align: left;
+    padding-top:0.5%;
+    width: 22%
 }
 a:hover{
     background-color: blue;
