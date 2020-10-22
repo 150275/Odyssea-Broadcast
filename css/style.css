@@ -1,0 +1,54 @@
+.title{
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+    height:60px;
+    margin: 0px;
+    position: relative;
+}
+.channel-name{
+    background-color: white;
+    border-style: none; 
+    border-width: 0.4em;
+    border-color: black;
+    width:10%;
+    text-align: center;
+    margin: 5px;
+    padding: 0.5%;
+}
+.tbody{
+    text-align: start;
+}
+.news{
+    border-style: none none none solid;
+    border-color: chocolate;
+    width: 30%;
+    padding-left: 10px;
+}
+.sports{
+    border-style: none none none solid;
+    border-color: lawngreen;
+    width: 30%;
+    padding-left: 10px;
+}
+.sections{
+
+}
+.sections-img{
+    width:200px;
+}
+.text{
+    
+    margin: 45px;
+}
+a:hover{
+    background-color: blue;
+    border-style: none none solid none;
+    border-color: aqua;
+        }
+tr{
+    border-style: none none none solid;
+    border-color: royalblue;
+    border-width: 500px;
+}
