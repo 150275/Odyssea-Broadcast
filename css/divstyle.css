@@ -4,7 +4,6 @@
     border-color: black;
     border-width: 20px;
     height:60px;
-    margin: 0px;
     position: relative;
 }
 .channel-name{
@@ -16,6 +15,8 @@
     text-align: center;
     margin: 5px;
     padding: 0.5%;
+    /* when zooming the name moves*/
+    position: absolute; right: 0px;
 }
 .tbody{
     text-align: start;
@@ -23,26 +24,53 @@
 .news{
     border-style: none none none solid;
     border-color: chocolate;
-    width: 30%;
+    width: 25%;
     padding-left: 10px;
 }
 .sports{
     border-style: none none none solid;
-    border-color: lawngreen;
-    width: 30%;
+    border-color: lightgreen;
+    width: 25%;
     padding-left: 10px;
 }
 .international{
     border-style: none none none solid;
-    border-color: teal;
-    width: 30%;
-    padding-left: 10px;
+    border-color: hotpink;
+    width: 25%;
+    padding-left: 5px;
 }
 .sections{
 
 }
 .sections-img{
-    width:300px;
+    width:24%;
+    margin-left: 3px;
+    position: relative;
+}
+.text-1{
+    border-style:none;
+    text-align: left;
+    position: relative; bottom: 0px; left:0%;
+    width: 24%;
+}
+.text-2{
+    border-style:none;
+    /*big space between divs*/
+    position: relative; bottom:150px; left:25%;
+    text-align: left;
+    width: 24%;
+}
+.text-3{
+    border-style:none;
+    position: relative; bottom:264px; left:50%;
+    text-align: left;
+    width: 330px;
+}
+.text-4{
+    border-style:none;
+    position: relative; bottom:380px; left:75%;
+    text-align: left;
+    width: 330px;
 }
 a:hover{
     background-color: blue;
