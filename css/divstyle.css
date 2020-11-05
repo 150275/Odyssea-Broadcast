@@ -8,14 +8,9 @@
 }
 .channel-name{
     background-color: white;
-    border-style: none; 
-    border-width: 0.4em;
-    border-color: black;
-    width:10%;
+    border-style: none;
     text-align: center;
     margin: 5px;
-    padding: 0.5%;
-    /* when zooming the name moves*/
     position: absolute; right: 0px;
 }
 .tbody{
@@ -37,7 +32,7 @@
     border-style: none none none solid;
     border-color: hotpink;
     width: 25%;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 .sections{
 
@@ -47,30 +42,36 @@
     margin-left: 3px;
     position: relative;
 }
+.text{
+    border-style:none;
+    text-align: left;
+    position: absolute;left:25%;
+    width: 24%;
+}
 .text-1{
     border-style:none;
     text-align: left;
-    position: relative; bottom: 0px; left:0%;
+    position: absolute;
     width: 24%;
 }
 .text-2{
     border-style:none;
     /*big space between divs*/
-    position: relative; bottom:150px; left:25%;
+    position:absolute; left:25%;
     text-align: left;
     width: 24%;
 }
 .text-3{
     border-style:none;
-    position: relative; bottom:264px; left:50%;
+    position: absolute; left:50%;
     text-align: left;
-    width: 330px;
+    width: 24%;
 }
 .text-4{
     border-style:none;
-    position: relative; bottom:380px; left:75%;
+    position: absolute; left:75%;
     text-align: left;
-    width: 330px;
+    width: 24%;
 }
 a:hover{
     background-color: blue;

@@ -24,13 +24,12 @@
     border-style: none none none solid;
     border-color: chocolate;
     width: 30%;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .sports{
     border-style: none none none solid;
-    border-color: lawngreen;
     width: 30%;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .international{
     border-style: none none none solid;
@@ -44,8 +43,7 @@
 .sections-img{
     width:300px;
 }
-a:hover{
-    background-color: blue;
+.td:hover{
     border-style: none none solid none;
     border-color: aqua;
         }
